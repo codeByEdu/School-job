@@ -9,12 +9,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { PlanosComponent } from './planos/planos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    DashboardComponent
+    DashboardComponent,
+    PlanosComponent
   ],
   imports: [
     BrowserModule,
