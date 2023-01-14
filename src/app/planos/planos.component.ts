@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-planos',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./planos.component.scss']
 })
 export class PlanosComponent {
+  
 
 }
